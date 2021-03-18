@@ -50,14 +50,14 @@ code {
   margin: 0;
 }
 
-.mainheader h1 {
+h1 {
   text-transform: uppercase;
   font-weight: 500;
   font-size: 6rem;
   margin: 0;
 }
 
-.mainheader h1 span {
+h1 span {
   color: #ff0000;
 }
 
@@ -162,4 +162,106 @@ li:last-of-type {
 .a-b-title h2 {
   font-weight: 500;
   text-align: center;
+}
+
+/*-----------Offer -----------------*/
+
+.offercontainer {
+  height: 941px;
+  width: 100%;
+  background-image: url(./assets/offer.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.offercontainer h1 {
+  text-align: center;
+  line-height: 6rem;
+}
+
+.offercontainer p {
+  font-weight: 300;
+}
+
+/*----------------About----------*/
+
+.about-container {
+  height: 941px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-container {
+  max-width: 70%;
+  height: auto;
+}
+
+.text-container {
+  max-width: 50%;
+  margin: 0 20px;
+}
+
+.text-container h1 {
+  color: #ff0000;
+  line-height: 5.2rem;
+  font-size: 5rem;
+}
+
+.text-container .btn {
+  font-size: 1rem;
+  border-radius: 15px;
+}
+
+/*--------------Contact ---------------------*/
+
+.contact-container {
+  height: 941px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-container h1 {
+  font-size: 4rem;
+}
+
+input {
+  border: none;
+  margin: 5px auto;
+  background-color: #222022;
+  color: #575557;
+  height: 3rem;
+  width: 40rem;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+textarea {
+  margin: 5px auto;
+  border: none;
+  resize: none;
+  width: 720px;
+  height: 193px;
+  background-color: #222022;
+  color: #575557;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.container-input {
+  justify-content: center;
+}
+
+.container-input .btn {
+  border-radius: 5px;
+  width: 720px;
+  margin: 0;
 }

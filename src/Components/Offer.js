@@ -3,7 +3,11 @@ import React from 'react';
 const Offer = () => {
   return (
     <div className="offercontainer">
-      <h1>A big offer for this summer</h1>
+      <h1>
+        A big <span>offer</span>
+        for
+        <br /> this summer
+      </h1>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
       <button className="btn">Join us</button>
     </div>
