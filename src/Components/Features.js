@@ -10,7 +10,7 @@ const Features = () => {
     <div id="features">
       <h1>Features</h1>
       <div className="box-container">
-        <Featurebox image={imagen01} title="WeightLifting" />
+        <Featurebox image={imagen01} title="WeightLifting" id="weig" />
         <Featurebox image={imagen02} title="Specefic Muscle" />
         <Featurebox image={imagen03} title="Flex your Muscle" />
         <Featurebox image={imagen04} title="Cardio Excercise" />

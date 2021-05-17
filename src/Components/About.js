@@ -3,7 +3,7 @@ import Aboutphoto from '../assets/about.png';
 
 const About = () => {
   return (
-    <div className="about-container">
+    <div className="about-container" id="about">
       <div className="img-container">
         <img src={Aboutphoto} alt="about"></img>
       </div>
